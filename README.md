@@ -8,8 +8,8 @@ Faire un bundle install avant de lancer le programme
 
 ### Mode d'emploi
 
-Lancer un serveur local avec la commande '$shotgun -p 4567' dans le terminal
-Ouvrir la page http://localhost:4567/ dans le navigateur 
+* Lancer un serveur local avec la commande '$shotgun -p 4567' dans le terminal
+* Ouvrir la page http://localhost:4567/ dans le navigateur 
 
 ## Authors
 
