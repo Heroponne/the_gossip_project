@@ -1,0 +1,21 @@
+<!-- affiche la page de garde du site de gossip -->
+<html>
+  <head>
+<!-- Titre de l'onglet -->
+    <title>The Gossip Project</title>
+  </head>
+
+  <body>
+    <h1>Mon super site de gossip, depuis le dossier views !</h1>
+    <p>Clique <a href="/gossips/new/">ici</a> si tu veux rajouter un potin ! :)</p>
+    <!-- affiche tous les gossips grâce à la variable locale créée dans le fichier controller -->
+    <% gossips.each do |gossip| %>
+      <p>
+      	<%=gossip.id %><br/>
+        <%=gossip.author %><br/>
+        <%=gossip.content %><br/>
+        Clique <a href="/gossips/<%= gossip.id%>">ici</a> pour voir le potin de plus près !
+      </p>
+    <% end %>
+  </body>
+</html>

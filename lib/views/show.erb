@@ -1,0 +1,14 @@
+<!-- affiche la page d'un gossip -->
+<html>
+  <head>
+<!-- Titre de l'onglet -->
+    <title>Page du gossip</title>
+  </head>
+
+  <body>
+    <h1>Voici la page du potin : <%=gossips[number_of_the_gossip.to_i - 1].id %> !</h1>
+    <p>Son auteur : <%=gossips[number_of_the_gossip.to_i - 1].author %></p>
+    <p>Son contenu : <%=gossips[number_of_the_gossip.to_i - 1].content %></p>
+    <p>Clique <a href="/">ici</a> pour revenir à la page d'accueil</p>
+  </body>
+</html>
